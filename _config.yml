@@ -7,18 +7,20 @@ lang: en
 timezone: Africa/Nairobi
 
 title: Sylvia Wanjiru Wahome
-avatar: /assets/img/logo.png
+avatar: /assets/img/logo.png  # Avatar used in the sidebar — make sure this image exists
 tagline: Greatness within
+
 description: >-
   Data science is a multidisciplinary field that uses scientific methods, algorithms, 
   and systems to extract knowledge and insights from structured and unstructured data. 
   It combines statistics, computer science, mathematics, and domain expertise to turn 
   raw data into actionable insights.
 
-logo: /assets/img/logo.png
+# Only needed if used elsewhere — not required for Chirpy avatar
+# logo: /assets/img/logo.png
 
-url: "https://sylviawahome.github.io" # Change if custom domain
-baseurl: "" # Keep empty unless deployed to a subdirectory
+url: "https://sylviawahome.github.io"
+baseurl: ""  # Leave empty unless your site is in a subdirectory
 
 github:
   username: sylviawahome
@@ -59,11 +61,9 @@ analytics:
 pageviews:
   provider: 
 
-theme_mode: # light | dark | leave blank to follow system preference
+theme_mode:  # light | dark | leave blank to follow system preference
 
 cdn: 
-
-avatar: 
 
 social_preview_image: 
 
